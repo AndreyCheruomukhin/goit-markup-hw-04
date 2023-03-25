@@ -289,17 +289,16 @@ padding: 0;
   height: 100%;
   border:1px solid #8E8F99;
   border-radius: 4px;
+  color: #8E8F99;
   }
   .customers-list-item :hover, 
   .customers-list-item :focus{
   border-color: #404BBF;
-  fill:#404BBF;
+  color:#404BBF;
 }
 .customers-svg {
  display: flex;
- justify-content: center;
-    align-items: center;
-    fill: #8E8F99;
+    fill: currentColor;
 }
 
 /* our team */
